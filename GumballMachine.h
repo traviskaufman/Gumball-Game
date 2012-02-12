@@ -4,9 +4,6 @@
  * The Gumball Machine class. Handles the initialization (filling), storage, and dispensing of gumballs. 
  */
 
-/*typedef enum {RED, BLUE, WHITE, GREEN, BLACK, PURPLE, CYAN, MAGENTA, YELLOW} GUMBALL;
-const short unsigned int NUM_GB_COLORS = 9;*/
-
 class GumballMachine {
 public:
   // factory methods
