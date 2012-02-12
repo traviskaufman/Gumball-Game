@@ -1,0 +1,17 @@
+**************************
+* GUMBALL GAME           *
+* Author: Travis Kaufman *
+* Version: 1.0.2         *
+**************************
+
+This program started off as an assignment for a class, and ended up being an attempt by me to get more comfortable with the Singleton Design pattern, prior to which (besides it implicit use in Max Externals) I've never actually had to use. 
+
+The idea of the simulation is that a gumball machine has 8 different colored gumballs, with a certain random amount of each gumball (constrained within a range depending on its color) in the machine. Along with these gumballs, there is a singular yellow gumball. The idea then is to simulate how much money you would have to spend to get that gumball, aswell as figure out the color that was purchased the most. 
+
+As I mentioned, the coding is pretty trivial so I figured since there can only be one gumball machine throughout the whole game, why not try and use the singleton pattern for it? Even if it's a bit overkill at least I'll be that much more prepared if/when I have to write a logger. 
+
+ASSEMBLY INSTRUCTIONS:
+-- In the working directory, type "make" to compile the program
+-- Type "make dev" to compile the program with Verbose warnings
+
+Note to Lion users: This Makefile uses gcc. Apple's most recent developer tools do not include gcc, so you need to have it on your system before you build. Either that or you can edit the Makefile, all ~4 lines of it. 
