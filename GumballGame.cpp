@@ -4,7 +4,7 @@
  * Implements a Game using gumballs where the goal of the game is to get a Yellow gumball
  * Author: Travis Kaufman
  * Class: Web Programming - Spring 2012
- * Version: 1.0.0 
+ * Version: 1.0.2 
  */
 
 #include "GB_Global.h"
