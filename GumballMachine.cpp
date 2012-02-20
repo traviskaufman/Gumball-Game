@@ -83,6 +83,6 @@ int GumballMachine::fill(GUMBALL gb_color) {
  */
 
 int GumballMachine::randRange(const int gb_floor, const int gb_ceiling) {
-  return (rand() % (gb_floor - gb_ceiling)) + gb_floor;
+  return (rand() % (gb_ceiling - gb_floor)) + gb_floor;
 } // end randRange
 
